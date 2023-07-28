@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Project</title>
+
+    <!-- font awesome -->
+<script src="https://kit.fontawesome.com/f9a74d9fe6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav_list"><a href="index.html" class="nav_link">Home</a></li>
+            
+            <li class="nav_list"><a href="register.html" class="nav_link">Register</a></li>
+            
+            <li class="nav_list"><a href="login.html" class="nav_link">Login</a></li>
+            
+            <li class="nav_list"><a href="/index.html" class="nav_link">Logout</a></li>
+            
+            <li class="nav_list"><a href="contact.html" class="nav_link">Contact</a></li>
+            
+            <li class="nav_list">
+            <a href="profile.html" class="nav_link">
+                <img class="profile-icon" src="images/png.jpg" alt="profile-icon">
+
+            </a></li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list"><a href="/index.html" class=" nav_brand nav_link">Oishi Express</a></li>
+            <li class="nav_list"><a href="/cart.html" class="nav_link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                Cart 2 Products - $124.40
+            </a></li>
+        </ul>
+    </nav>
+     <!-- navbar ends here -->
+     <main class="flex-center">
+     <div class="main-content">
+     <section class="product-details flex-center">
+     <div class="product_details-left flex-center">
+     <img src="/images/products1.jpg" alt="products1">
+     </div>
+     <div class="product_details-right">
+        <h3 class="product_name">Sony V-4 Headphone</h3>
+        <p>
+            <span class="dot green"></span>
+            <span class="dot black"></span>
+            <span class="dot red"></span>
+        </p>
+        <p class="product_describtion">
+            <strong>Description:</strong>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse sed illo
+        cupiditate inventore totam libero minus, neque quibusdam, illum eius delectus
+        maxime non sapiente!
+        </p>
+        <p class="product_describtion">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit placeat similique provident
+         iusto deserunt fugiat tenetur alias. Perspiciatis veritatis, ab blanditiis sed vero unde 
+         odit necessitatibus, illum, eum non et. Exercitationem alias culpa minus ducimus!
+            </p>
+        <h4 class="product_category">Category: Headphone</h4>
+        <h4 class="product_price">Price: $225.99</h4>
+        <p class="product_rating">Rating: 4.5/5</p>
+        <button class="btn product-button">Add To Cart</button>
+        <button class="btn product-button">Back to shopping</button>
+        </div>
+    </section>
+     </div>
+     </main>
+
+     <!-- footer starts here -->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email"  id="subscribe" name="subscribe" class="footer_input" 
+            placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Oishi Express. All right reserve </p>
+        </div>
+     </footer>
+    <!-- footer ends here -->
+    <script src="./scripts/index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Project</title>
+
+    <!-- font awesome -->
+<script src="https://kit.fontawesome.com/f9a74d9fe6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav_list"><a href="index.html" class="nav_link">Home</a></li>
+            
+            <li class="nav_list"><a href="register.html" class="nav_link">Register</a></li>
+            
+            <li class="nav_list"><a href="login.html" class="nav_link">Login</a></li>
+            
+            <li class="nav_list"><a href="/index.html" class="nav_link">Logout</a></li>
+            
+            <li class="nav_list"><a href="contact.html" class="nav_link">Contact</a></li>
+            
+            <li class="nav_list">
+            <a href="profile.html" class="nav_link">
+                <img class="profile-icon" src="images/png.jpg" alt="profile-icon">
+
+            </a></li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list"><a href="/index.html" class=" nav_brand nav_link">Oishi Express</a></li>
+            <li class="nav_list"><a href="/cart.html" class="nav_link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                Cart 2 Products - $124.40
+            </a></li>
+        </ul>
+    </nav>
+     <!-- navbar ends here -->
+     
+     <main>
+        <section class="login">
+            <h2 class="section-title text-center">User Login</h2>
+            <div class="card">
+            <form action="" class="form">
+           
+             <div class="form-control flex-center">
+                <label for="email">Email</label>
+                <input type="text" id="email" required autocomplete="email" />
+             </div>
+             <div class="form-control flex-center">
+                <label for="password">Password</label>
+                <input type="text" id="password" required autocomplete="password" />
+             </div>
+          
+             <div class="form-control flex-center form-btn-field">
+                <button type="submit" class="btn contact-btn">Submit</button>
+             </div>
+             </form>
+            </div>
+        </section>
+     </main>
+
+     <!-- footer starts here -->
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email"  id="subscribe" name="subscribe" class="footer_input" 
+            placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Oishi Express. All right reserve </p>
+        </div>
+     </footer>
+    <!-- footer ends here -->
+    <script src="./scripts/index.js"></script>
+    
+</body>
+</html>
