@@ -136,7 +136,7 @@ header starts here
 .header{
     padding: 4rem 0;
     height: 80vh;
-    background: url(/images/banner.jpg) no-repeat center;
+    background: url(./images/banner.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
 }
